@@ -1,0 +1,22 @@
+Recently completed data analytics certification from Springboard with focus on advanced SQL/Python skills.
+
+For my capstone project, I analyzed consumer purchasing patterns to inform product strategy and growth initiatives of quick e-commerce platform - Blinkit, using a sales dataset from Kaggle.
+
+I developed a retention analysis framework identifying category diversity as primary churn driver
+
+Summary & Implications
+1 - Product Category Diversity (STRONGEST DRIVER)
+Cohen's d: -0.78 (Large effect - anything > 0.5 is meaningful)
+Correlation: -0.36 (Negative = fewer categories = higher churn)
+Insight: Customers who only buy 1-2 categories (e.g., just snacks, just beverages) churn at much higher rates than those who buy across multiple categories (groceries + household + personal care). Limited product selection or narrow appeal is killing retention.
+
+2 - Recommendation:
+Focus on expanding product assortment and cross-category promotions, Target customers who oly buy 1-2 categories with personalized recommendations, Bundle products across categories to increase basket diversity.
+Action:
+Create targeted campaigns for single-category buyers based on their primary category:
+1. If primary category is Pet Care, make suggestions for other single-category buyers such as Baby or Household Care
+2. Cross-sell cateogries that pair naturally together such as Baby and Household Care
+3. Offer promotions to entice buyers to purchase more than one category e.g. 20% off Snacks & Munchies when buying Cold Drinks & Juices
+
+3 - Quantified Business Impact:
+If we convert  30% of single-category buyers to multi-category, we would save Blinkit an estimated $824K in losses from churn. 
